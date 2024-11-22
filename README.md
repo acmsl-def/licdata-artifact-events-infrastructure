@@ -1,2 +1,3 @@
-# licdata-artifact-events-infrastructure-def
-Definition for acmsl/licdata-artifact-events-infrastructure
+# Licdata Artifact Events Infrastructure
+
+Definition package for acmsl/licdata-artifact-events-infrastructure
