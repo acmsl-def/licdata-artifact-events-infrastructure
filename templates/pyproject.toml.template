@@ -26,6 +26,7 @@ homepage = "@homepage@"
 packages = [{include = "@package@"}]
 
 [tool.poetry.dependencies]
+acmsl-licdata-artifact-events = "^@acmslLicdataArtifactEvents@"
 python = "^@pythonMajorMinorVersion@"
 pythoneda-shared-pythonlang-domain = "^@pythonedaSharedPythonlangDomain@"
 pythoneda-shared-pythonlang-infrastructure = "^@pythonedaSharedPythonlangInfrastructure@"
