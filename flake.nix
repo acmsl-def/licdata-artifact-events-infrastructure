@@ -26,7 +26,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:acmsl-def/licdata-artifact-events/0.0.10";
+      url = "github:acmsl-def/licdata-artifact-events/0.0.11";
     };
     flake-utils.url = "github:numtide/flake-utils/v1.0.0";
     nixos.url = "github:NixOS/nixpkgs/24.05";
@@ -40,7 +40,7 @@
       inputs.nixos.follows = "nixos";
       inputs.pythoneda-shared-pythonlang-banner.follows =
         "pythoneda-shared-pythonlang-banner";
-      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.90";
+      url = "github:pythoneda-shared-pythonlang-def/domain/0.0.92";
     };
     pythoneda-shared-pythonlang-infrastructure = {
       inputs.flake-utils.follows = "flake-utils";
@@ -49,7 +49,7 @@
         "pythoneda-shared-pythonlang-banner";
       inputs.pythoneda-shared-pythonlang-domain.follows =
         "pythoneda-shared-pythonlang-domain";
-      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.68";
+      url = "github:pythoneda-shared-pythonlang-def/infrastructure/0.0.69";
     };
   };
   outputs = inputs:
@@ -58,8 +58,8 @@
       let
         org = "acmsl";
         repo = "licdata-artifact-events-infrastructure";
-        version = "0.0.2";
-        sha256 = "0faai228jpb3gl37ds6mwvdw42rwzi5bmchw51x79s37ldis4kdw";
+        version = "0.0.3";
+        sha256 = "0yaa2qv0pyq58xjsbhr3ykk5iqx3bxm13bfikrr6091dnl502qy1";
         pname = "${org}-${repo}";
         pythonpackage = "org.acmsl.artifact.events.infrastructure.licdata";
         package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
