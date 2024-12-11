@@ -96,7 +96,7 @@
               authors = builtins.concatStringsSep ","
                 (map (item: ''"${item}"'') maintainers);
               desc = description;
-              inherit homepage pname pythonMajorMinorVersion pythonpackage
+              inherit homepage pname pythonMajorMinorVersion package
                 version;
               acmslLicdataArtifactEvents = acmsl-licdata-artifact-events.version;
               package = builtins.replaceStrings [ "." ] [ "/" ] pythonpackage;
