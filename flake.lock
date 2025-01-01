@@ -16,16 +16,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1734769066,
-        "narHash": "sha256-qQ5eQG8CRUwTHtSNcapfwknbtx+zEwYIv53vd5SkQI0=",
+        "lastModified": 1735757271,
+        "narHash": "sha256-Rjo6EPooOAd6votea2tZVERU5i1fUKcrc7olgD4wwsg=",
         "owner": "acmsl-def",
         "repo": "licdata-artifact-events",
-        "rev": "a5cacc60cb9e1f708662f1228241fdb8d263c828",
+        "rev": "b198f7ac4f900c69462de8852d82b25300f204c1",
         "type": "github"
       },
       "original": {
         "owner": "acmsl-def",
-        "ref": "0.0.20",
+        "ref": "0.0.21",
         "repo": "licdata-artifact-events",
         "type": "github"
       }
@@ -127,16 +127,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1734721587,
-        "narHash": "sha256-FMwUsdFPamJSpra0OYk2/AvP8EkzCWLYxCkjyUDF0M4=",
+        "lastModified": 1735637228,
+        "narHash": "sha256-jRpZzZe13K+MF8O7kdiLzUd0Re7id/wq3fsRC1tnVKI=",
         "owner": "pythoneda-shared-pythonlang-def",
         "repo": "domain",
-        "rev": "5f283a66198060a6848ac5910aa1a29cb6f7809c",
+        "rev": "620609c96549dc059d4089b4fb7788819094007b",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythonlang-def",
-        "ref": "0.0.105",
+        "ref": "0.0.109",
         "repo": "domain",
         "type": "github"
       }
@@ -158,16 +158,16 @@
         ]
       },
       "locked": {
-        "lastModified": 1734721655,
-        "narHash": "sha256-yxzhWeXe0qu7xGxFvCioAHcvuD1FzujyZQDukuVbRDU=",
+        "lastModified": 1735637296,
+        "narHash": "sha256-twf/3NiVPj3ctk2amhH7ItbC/b6DUSUIxDOX52X1KGQ=",
         "owner": "pythoneda-shared-pythonlang-def",
         "repo": "infrastructure",
-        "rev": "913075fd7c787588b8bb54268e1227fdfa503a04",
+        "rev": "e675f00f5cd18a58d062245e75f04fdbf443b6ee",
         "type": "github"
       },
       "original": {
         "owner": "pythoneda-shared-pythonlang-def",
-        "ref": "0.0.81",
+        "ref": "0.0.84",
         "repo": "infrastructure",
         "type": "github"
       }
