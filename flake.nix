@@ -29,7 +29,7 @@
       url = "github:acmsl-def/licdata-artifact-events/0.0.27";
     };
     flake-utils.url = "github:numtide/flake-utils/v1.0.0";
-    nixpkgs.url = "github:NixOS/nixpkgs/24.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/release-24.11";
     pythoneda-shared-pythonlang-banner = {
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
